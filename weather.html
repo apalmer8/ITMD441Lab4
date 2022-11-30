@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITMD-441 Lab 4</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="js/script.js"></script>
+  </head>
+  <body>
+    <section>
+    </section>
+    <div>
+      <h1>Weather App</h1>
+      <div id="form-container">
+          <div class="form-field">
+            <label class="location" placeholder='location'></label>
+            <input type="text" class="textbox" id="location_box" name="location_box">
+            <button onclick="getLoc()" class="geo_button" id="geo_button">Use GPS</button>
+            <button onclick="returnLoc()" class="loc_button" id="loc_button">Submit</button>
+          </div>
+          <div>
+            <p id="Region">Region:</p>
+            <h3 id="Current-Conditions">Current Conditions:</h3>
+            <p id="DayHour">Dayhour: </p>
+            <p id="Temp">Temperature: </p>
+            <p id="Precip">Precipitation: </p>
+            <p id="Humidity">Humidity:</p>
+            <p id="Wind">Wind: </p>
+            <p id="Comment"></p>
+            <img id="weather-icon" src="" alt="">
+            <section id="flex-section">
+              <nav>
+                <ul>
+                  <li class="item1">
+                    <h3 id="Day1">Day:  </h3>
+                    <p id="High1">High: </p>
+                    <p id="Low1">Low: </p>
+                    <p id="Comment1"> </p>
+                    <img id="weather-icon1" src="" alt="">
+                  </li>
+                  <li class="item2">
+                    <h3 id="Day2">Day:  </h3>
+                    <p id="High2">High: </p>
+                    <p id="Low2">Low: </p>
+                    <p id="Comment2"> </p>
+                    <img id="weather-icon2" src="" alt="">
+                  </li>
+                  <li class="item3">
+                    <h3 id="Day3">Day:  </h3>
+                    <p id="High3">High: </p>
+                    <p id="Low3">Low: </p>
+                    <p id="Comment3"> </p>
+                    <img id="weather-icon3" src="" alt="">
+                  </li>
+                  <li class="item4">
+                    <h3 id="Day4">Day:  </h3>
+                    <p id="High4">High: </p>
+                    <p id="Low4">Low: </p>
+                    <p id="Comment4"> </p>
+                    <img id="weather-icon4" src="" alt="">
+                  </li>
+
+                </ul>
+              </nav>
+            </section>
+            <section id="flex-section2">
+              <nav>
+                <ul>
+                  <li class="item5">
+                    <h3 id="Day5">Day:  </h3>
+                    <p id="High5">High: </p>
+                    <p id="Low5">Low: </p>
+                    <p id="Comment5"> </p>
+                    <img id="weather-icon5" src="" alt="">
+                  </li>
+                  <li class="item6">
+                    <h3 id="Day6">Day:  </h3>
+                    <p id="High6">High: </p>
+                    <p id="Low6">Low: </p>
+                    <p id="Comment6"> </p>
+                    <img id="weather-icon6" src="" alt="">
+                  </li>
+                  <li class="item7">
+                    <h3 id="Day7">Day:  </h3>
+                    <p id="High7">High: </p>
+                    <p id="Low7">Low: </p>
+                    <p id="Comment7"> </p>
+                    <img id="weather-icon7" src="" alt="">
+                  </li>
+                </ul>
+              </nav>
+            </section>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
